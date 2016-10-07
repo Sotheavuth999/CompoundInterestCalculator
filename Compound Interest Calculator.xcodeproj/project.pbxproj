@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FEE3B11DA7DAAB00D07CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FEE3B01DA7DAAB00D07CE0 /* AppDelegate.swift */; };
+		66FEE3B31DA7DAAB00D07CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FEE3B21DA7DAAB00D07CE0 /* ViewController.swift */; };
+		66FEE3B61DA7DAAB00D07CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FEE3B41DA7DAAB00D07CE0 /* Main.storyboard */; };
+		66FEE3B81DA7DAAB00D07CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FEE3B71DA7DAAB00D07CE0 /* Assets.xcassets */; };
+		66FEE3BB1DA7DAAB00D07CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FEE3B91DA7DAAB00D07CE0 /* LaunchScreen.storyboard */; };
+		66FEE3C61DA7DAAB00D07CE0 /* Compound_Interest_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FEE3C51DA7DAAB00D07CE0 /* Compound_Interest_CalculatorTests.swift */; };
+		66FEE3D11DA7DAAB00D07CE0 /* Compound_Interest_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FEE3D01DA7DAAB00D07CE0 /* Compound_Interest_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FEE3C21DA7DAAB00D07CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FEE3A51DA7DAAB00D07CE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FEE3AC1DA7DAAB00D07CE0;
+			remoteInfo = "Compound Interest Calculator";
+		};
+		66FEE3CD1DA7DAAB00D07CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FEE3A51DA7DAAB00D07CE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FEE3AC1DA7DAAB00D07CE0;
+			remoteInfo = "Compound Interest Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66FEE3AD1DA7DAAB00D07CE0 /* Compound Interest Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compound Interest Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FEE3B01DA7DAAB00D07CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66FEE3B21DA7DAAB00D07CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66FEE3B51DA7DAAB00D07CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66FEE3B71DA7DAAB00D07CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66FEE3BA1DA7DAAB00D07CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66FEE3BC1DA7DAAB00D07CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FEE3C11DA7DAAB00D07CE0 /* Compound Interest CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Compound Interest CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FEE3C51DA7DAAB00D07CE0 /* Compound_Interest_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compound_Interest_CalculatorTests.swift; sourceTree = "<group>"; };
+		66FEE3C71DA7DAAB00D07CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FEE3CC1DA7DAAB00D07CE0 /* Compound Interest CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Compound Interest CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FEE3D01DA7DAAB00D07CE0 /* Compound_Interest_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compound_Interest_CalculatorUITests.swift; sourceTree = "<group>"; };
+		66FEE3D21DA7DAAB00D07CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FEE3AA1DA7DAAB00D07CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FEE3BE1DA7DAAB00D07CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FEE3C91DA7DAAB00D07CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FEE3A41DA7DAAB00D07CE0 = {
+			isa = PBXGroup;
+			children = (
+				66FEE3AF1DA7DAAB00D07CE0 /* Compound Interest Calculator */,
+				66FEE3C41DA7DAAB00D07CE0 /* Compound Interest CalculatorTests */,
+				66FEE3CF1DA7DAAB00D07CE0 /* Compound Interest CalculatorUITests */,
+				66FEE3AE1DA7DAAB00D07CE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FEE3AE1DA7DAAB00D07CE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FEE3AD1DA7DAAB00D07CE0 /* Compound Interest Calculator.app */,
+				66FEE3C11DA7DAAB00D07CE0 /* Compound Interest CalculatorTests.xctest */,
+				66FEE3CC1DA7DAAB00D07CE0 /* Compound Interest CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FEE3AF1DA7DAAB00D07CE0 /* Compound Interest Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				66FEE3B01DA7DAAB00D07CE0 /* AppDelegate.swift */,
+				66FEE3B21DA7DAAB00D07CE0 /* ViewController.swift */,
+				66FEE3B41DA7DAAB00D07CE0 /* Main.storyboard */,
+				66FEE3B71DA7DAAB00D07CE0 /* Assets.xcassets */,
+				66FEE3B91DA7DAAB00D07CE0 /* LaunchScreen.storyboard */,
+				66FEE3BC1DA7DAAB00D07CE0 /* Info.plist */,
+			);
+			path = "Compound Interest Calculator";
+			sourceTree = "<group>";
+		};
+		66FEE3C41DA7DAAB00D07CE0 /* Compound Interest CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				66FEE3C51DA7DAAB00D07CE0 /* Compound_Interest_CalculatorTests.swift */,
+				66FEE3C71DA7DAAB00D07CE0 /* Info.plist */,
+			);
+			path = "Compound Interest CalculatorTests";
+			sourceTree = "<group>";
+		};
+		66FEE3CF1DA7DAAB00D07CE0 /* Compound Interest CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66FEE3D01DA7DAAB00D07CE0 /* Compound_Interest_CalculatorUITests.swift */,
+				66FEE3D21DA7DAAB00D07CE0 /* Info.plist */,
+			);
+			path = "Compound Interest CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FEE3AC1DA7DAAB00D07CE0 /* Compound Interest Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FEE3D51DA7DAAB00D07CE0 /* Build configuration list for PBXNativeTarget "Compound Interest Calculator" */;
+			buildPhases = (
+				66FEE3A91DA7DAAB00D07CE0 /* Sources */,
+				66FEE3AA1DA7DAAB00D07CE0 /* Frameworks */,
+				66FEE3AB1DA7DAAB00D07CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Compound Interest Calculator";
+			productName = "Compound Interest Calculator";
+			productReference = 66FEE3AD1DA7DAAB00D07CE0 /* Compound Interest Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FEE3C01DA7DAAB00D07CE0 /* Compound Interest CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FEE3D81DA7DAAB00D07CE0 /* Build configuration list for PBXNativeTarget "Compound Interest CalculatorTests" */;
+			buildPhases = (
+				66FEE3BD1DA7DAAB00D07CE0 /* Sources */,
+				66FEE3BE1DA7DAAB00D07CE0 /* Frameworks */,
+				66FEE3BF1DA7DAAB00D07CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FEE3C31DA7DAAB00D07CE0 /* PBXTargetDependency */,
+			);
+			name = "Compound Interest CalculatorTests";
+			productName = "Compound Interest CalculatorTests";
+			productReference = 66FEE3C11DA7DAAB00D07CE0 /* Compound Interest CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66FEE3CB1DA7DAAB00D07CE0 /* Compound Interest CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FEE3DB1DA7DAAB00D07CE0 /* Build configuration list for PBXNativeTarget "Compound Interest CalculatorUITests" */;
+			buildPhases = (
+				66FEE3C81DA7DAAB00D07CE0 /* Sources */,
+				66FEE3C91DA7DAAB00D07CE0 /* Frameworks */,
+				66FEE3CA1DA7DAAB00D07CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FEE3CE1DA7DAAB00D07CE0 /* PBXTargetDependency */,
+			);
+			name = "Compound Interest CalculatorUITests";
+			productName = "Compound Interest CalculatorUITests";
+			productReference = 66FEE3CC1DA7DAAB00D07CE0 /* Compound Interest CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FEE3A51DA7DAAB00D07CE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "SOTHEAVUTH NGUON";
+				TargetAttributes = {
+					66FEE3AC1DA7DAAB00D07CE0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					66FEE3C01DA7DAAB00D07CE0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66FEE3AC1DA7DAAB00D07CE0;
+					};
+					66FEE3CB1DA7DAAB00D07CE0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66FEE3AC1DA7DAAB00D07CE0;
+					};
+				};
+			};
+			buildConfigurationList = 66FEE3A81DA7DAAB00D07CE0 /* Build configuration list for PBXProject "Compound Interest Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FEE3A41DA7DAAB00D07CE0;
+			productRefGroup = 66FEE3AE1DA7DAAB00D07CE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FEE3AC1DA7DAAB00D07CE0 /* Compound Interest Calculator */,
+				66FEE3C01DA7DAAB00D07CE0 /* Compound Interest CalculatorTests */,
+				66FEE3CB1DA7DAAB00D07CE0 /* Compound Interest CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FEE3AB1DA7DAAB00D07CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FEE3BB1DA7DAAB00D07CE0 /* LaunchScreen.storyboard in Resources */,
+				66FEE3B81DA7DAAB00D07CE0 /* Assets.xcassets in Resources */,
+				66FEE3B61DA7DAAB00D07CE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FEE3BF1DA7DAAB00D07CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FEE3CA1DA7DAAB00D07CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FEE3A91DA7DAAB00D07CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FEE3B31DA7DAAB00D07CE0 /* ViewController.swift in Sources */,
+				66FEE3B11DA7DAAB00D07CE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FEE3BD1DA7DAAB00D07CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FEE3C61DA7DAAB00D07CE0 /* Compound_Interest_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FEE3C81DA7DAAB00D07CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FEE3D11DA7DAAB00D07CE0 /* Compound_Interest_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FEE3C31DA7DAAB00D07CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FEE3AC1DA7DAAB00D07CE0 /* Compound Interest Calculator */;
+			targetProxy = 66FEE3C21DA7DAAB00D07CE0 /* PBXContainerItemProxy */;
+		};
+		66FEE3CE1DA7DAAB00D07CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FEE3AC1DA7DAAB00D07CE0 /* Compound Interest Calculator */;
+			targetProxy = 66FEE3CD1DA7DAAB00D07CE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66FEE3B41DA7DAAB00D07CE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FEE3B51DA7DAAB00D07CE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66FEE3B91DA7DAAB00D07CE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FEE3BA1DA7DAAB00D07CE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66FEE3D31DA7DAAB00D07CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66FEE3D41DA7DAAB00D07CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66FEE3D61DA7DAAB00D07CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Compound Interest Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theavuth.Compound-Interest-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		66FEE3D71DA7DAAB00D07CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Compound Interest Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theavuth.Compound-Interest-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		66FEE3D91DA7DAAB00D07CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Compound Interest CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theavuth.Compound-Interest-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Compound Interest Calculator.app/Compound Interest Calculator";
+			};
+			name = Debug;
+		};
+		66FEE3DA1DA7DAAB00D07CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Compound Interest CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theavuth.Compound-Interest-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Compound Interest Calculator.app/Compound Interest Calculator";
+			};
+			name = Release;
+		};
+		66FEE3DC1DA7DAAB00D07CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Compound Interest CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theavuth.Compound-Interest-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Compound Interest Calculator";
+			};
+			name = Debug;
+		};
+		66FEE3DD1DA7DAAB00D07CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Compound Interest CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theavuth.Compound-Interest-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Compound Interest Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FEE3A81DA7DAAB00D07CE0 /* Build configuration list for PBXProject "Compound Interest Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FEE3D31DA7DAAB00D07CE0 /* Debug */,
+				66FEE3D41DA7DAAB00D07CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FEE3D51DA7DAAB00D07CE0 /* Build configuration list for PBXNativeTarget "Compound Interest Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FEE3D61DA7DAAB00D07CE0 /* Debug */,
+				66FEE3D71DA7DAAB00D07CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66FEE3D81DA7DAAB00D07CE0 /* Build configuration list for PBXNativeTarget "Compound Interest CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FEE3D91DA7DAAB00D07CE0 /* Debug */,
+				66FEE3DA1DA7DAAB00D07CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66FEE3DB1DA7DAAB00D07CE0 /* Build configuration list for PBXNativeTarget "Compound Interest CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FEE3DC1DA7DAAB00D07CE0 /* Debug */,
+				66FEE3DD1DA7DAAB00D07CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FEE3A51DA7DAAB00D07CE0 /* Project object */;
+}
